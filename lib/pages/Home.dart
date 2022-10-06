@@ -109,7 +109,7 @@ class _HomeState extends State<Home> {
                     keyboardType: TextInputType.number,
                     textAlign: TextAlign.center,
                     decoration: InputDecoration(labelText: "Total da conta"),
-                    style: TextStyle(fontSize: 18),
+                    style: TextStyle(fontSize: 19),
                     validator: ((valor) {
                       if (valor!.isEmpty)
                         return "Campo Obrigatório";
